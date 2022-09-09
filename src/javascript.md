@@ -1,6 +1,7 @@
 
 
 **Q:** JavaScript 中 `null` 和 `undefined` 的区别? 
+**难度:**  &#x2B50;
 <details>
     <summary> <span style='font-weight:bold'> A:</span> </summary>
 
@@ -10,8 +11,10 @@ null用来表示空值，undefined用来表示不存在
 
 </details>
 
+---
 
 **Q:** JavaScript 中 `typeof` 和 `instanceof` 的区别? 
+**难度:**  &#x2B50;
 <details>
     <summary> <span style='font-weight:bold'> A:</span> </summary>
 
@@ -41,7 +44,10 @@ console.log({} instanceof Object);                   // true
 
 </details>
 
+---
+
 **Q:** JavaScript 中 `==` 和 `===` 的区别? 
+**难度:**  &#x2B50;
 <details>
     <summary> <span style='font-weight:bold'> A:</span> </summary>
 
@@ -68,8 +74,10 @@ null === undefined
 
 </details>
 
+---
 
 **Q:** JavaScript 中为什么 `0.1+0.2 ! == 0.3`, 如何让其相等 ? 
+**难度:**  &#x2B50;
 <details>
     <summary> <span style='font-weight:bold'> A:</span> </summary>
 
@@ -93,9 +101,11 @@ console.log(numberepsilon(0.1 + 0.2, 0.3)); // true
 
 </details>
 
+---
 
 
 **Q:** 简单介绍和写一个JavaScript 中闭包? 
+**难度:**  &#x2B50;&#x2B50;
 <details>
     <summary> <span style='font-weight:bold'> A:</span> </summary>
 
@@ -125,3 +135,5 @@ Javascript语言特有的"链式作用域"结构（chain scope），子对象会
 参考：https://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
 
 </details>
+
+---
